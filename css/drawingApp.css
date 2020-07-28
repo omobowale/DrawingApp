@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+container{
+	text-align:center;
+	color:white;
+	}
+	
+.header{
+	width:600px;
+	height:100px;
+	color:white;
+	text-align:center;
+	font-size:36px;
+	line-height:80px;
+	background:linear-gradient(to bottom, white, #09F);
+	margin:10px auto;
+	}
+	
+.thickness{
+	width:600px;
+	margin:0px auto;
+	position:relative;
+	height:40px;
+
+	}
+
+#thicknessCircle{
+	height:3px;
+	width:3px;
+	border-radius:50%;
+	background-color:black;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%)
+	}
+	
+
+	
+.colorDiv{
+	text-align:center;
+	margin:0px auto;
+	}
+	
+.slider{
+	margin:0px auto;
+	width:300px;
+	color:#09f;
+	}
+	
+#drawingCanvasDiv{
+	height:600px;
+	width:600px;
+	background-color:white;
+	border:solid 1px #09f;
+	cursor:crosshair;
+	}
+	
+#drawingCanvasDiv2{
+	height:600px;
+	width:600px;
+	margin:0px auto;
+	}
+	
+.buttonDiv{
+	width:600px;
+	height:50px;
+	margin:30px auto 10px auto ;
+	text-align:center;
+	}	
+	
+.buttonDiv button{
+	margin:0px 50px;
+	width:70px;
+	height:36px;
+	
+	
+	border:1px;
+	box-shadow: 0 4px rgba(0,0,089,0.4);
+	}
+
+.changeBgColor{
+	color:white;
+	background:linear-gradient(to bottom, blue, #09F);
+	}
+
+
+.changeBgColor2{
+	color:white;
+	background:linear-gradient(to bottom, white, #09F);
+	}
+		
+.buttonDiv button:active{
+	padding-top:4px;
+	width:70px;
+	height:32px;
+	background:linear-gradient(to bottom, white, #09F);
+	color:#09F;
+	border:1px;
+	box-shadow:none;
+	}	
+	
+	
+	
+	

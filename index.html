@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+<link rel="stylesheet" href="css/drawingApp.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<script src="jq/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css"/>
+<script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<title>drawing app</title>
+
+</head>
+
+<body>
+<div class="container">
+	<div class="header">
+    	Drawing App
+    </div>
+    <div class="colorDiv">
+    	<input id="colorInput" type="color" list placeholder="Enter a color here(e.g blue)"/>
+    </div>
+    <div class="thickness">
+        <div id="thicknessCircle">
+            
+        </div>
+    </div>
+    <div class="slider">
+
+    </div>
+    
+    <div class="buttonDiv">
+    	<button id="eraseButton" class="changeBgColor" type="button">Erase</button>
+        <button id="saveButton" class="changeBgColor" type="button">Save</button>
+        <button id="resetButton" class="changeBgColor" type="button">Reset</button>
+    </div>
+    
+    <div id="drawingCanvasDiv2">
+   		<canvas width="600" height="600" id="drawingCanvasDiv"></canvas>
+    </div>
+    
+</div>
+
+
+
+<script src="js/drawingApp.js"></script>
+</body>
+</html>
